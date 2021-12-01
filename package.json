@@ -1,0 +1,53 @@
+{
+    "name": "vue-easy-cli",
+    "version": "1.0.2",
+    "description": "a simple cli for manage vue template",
+    "main": "./bin/index.js",
+    "scripts": {
+        "release": "node script/release.js",
+        "commit": "git-cz"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-conventional-changelog"
+        }
+    },
+    "bin": {
+        "easy": "./bin/index.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "keywords": [
+        "vue",
+        "cli",
+        "tool"
+    ],
+    "author": "Joey <94593940@qq.com>",
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "dependencies": {
+        "chalk": "4.1.2",
+        "commander": "^8.3.0",
+        "didyoumean": "^1.2.2",
+        "download-git-repo": "^3.0.2",
+        "execa": "^6.0.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.2.0",
+        "is-git-url": "^1.0.0",
+        "ora": "5.4.1",
+        "request": "^2.88.2",
+        "semver": "^7.3.5",
+        "validate-npm-package-name": "^3.0.0"
+    },
+    "devDependencies": {
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.3.0",
+        "standard-version": "^9.3.2"
+    }
+}

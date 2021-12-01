@@ -1,0 +1,12 @@
+##----------idea----------
+*.iml
+.idea/
+*.ipr
+*.iws
+remark
+
+##----------node----------
+/node_modules
+
+##----------system----------
+.DS_Stor
