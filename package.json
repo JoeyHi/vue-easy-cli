@@ -1,6 +1,6 @@
 {
     "name": "vue-easy-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "a simple cli for manage vue template",
     "main": "./bin/index.js",
     "scripts": {
